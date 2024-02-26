@@ -1,8 +1,6 @@
 # Code to open an excel workbook and read values and do X and Y line of best fit formula and correlation values
 # Modification is needed if the raw data does not get processed with at least x = sqrt() or y = i/sqrt(x)
 # This is for 5 columns
-# By: John Marcial Email - jmarc114@fiu.edu, Phone - (305)-510-7578
-# Contact if shit goes wrong or if you don't understand how to use the program
 
 import math
 import openpyxl as xl
@@ -94,7 +92,7 @@ for array5 in splits3:
     x_sum_y_sum.append(array5 * xSum)
 # print(x_sum_y_sum)  # (visual aid only)
 
-# the k1 formula (FUCK YEAH BITCH IM A GOD)
+# the k1 formula 
 k1_list_raw = []
 for i4, i5 in zip(xy_sum_real, x_sum_y_sum):
     k1_list_raw.append(((n * i4)-i5) / (xx_Multi_Sum - (xSum * xSum)))
