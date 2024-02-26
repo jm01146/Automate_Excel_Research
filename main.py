@@ -1,7 +1,6 @@
 # Code to open an excel workbook and read values and do X and Y line of best fit formula
 # Modification is needed if the raw data does not get processed with at least x = sqrt() or y = i/sqrt(x)
 # This is for 7 columns
-# By: John Marcial Email - jmarc114@fiu.edu, Phone - (305)-510-7578
 
 import math
 import openpyxl as xl
